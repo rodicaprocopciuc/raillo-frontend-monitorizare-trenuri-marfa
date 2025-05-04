@@ -1,0 +1,93 @@
+.vagoane-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.vagoane-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vagoane-header h2 {
+  font-size: 28px;
+  color: #2d3748;
+  margin: 0;
+}
+
+.vagoane-actions input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.vagoane-actions input:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+.vagoane-actions button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vagoane-actions button:hover {
+  background-color: #0056b3;
+}
+
+.vagoane-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.vagoane-table th,
+.vagoane-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+}
+
+.vagoane-table th {
+  background-color: #edf2f7;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.vagoane-table tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+.vagoane-table tr:hover {
+  background-color: #e6f7ff;
+  transition: background-color 0.3s ease;
+}
+
+.vagoane-table button {
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vagoane-table button:hover {
+  background-color: #0056b3;
+}

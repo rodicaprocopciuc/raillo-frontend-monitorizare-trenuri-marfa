@@ -1,0 +1,116 @@
+.utilizatori-container {
+  width: 100%;
+  padding: 20px 16px; 
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; 
+}
+
+
+
+
+
+.utilizatori-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.utilizatori-actions {
+  margin-bottom: 30px;
+  background-color: #f1f5f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.utilizatori-actions h3 {
+  margin-bottom: 15px;
+  color: #1e40af;
+}
+
+.utilizatori-actions form {
+  display: grid;
+  gap: 10px;
+}
+
+.utilizatori-actions input {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.utilizatori-actions input:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+.utilizatori-actions button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.utilizatori-actions button:hover {
+  background-color: #1e40af;
+}
+
+.utilizatori-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.utilizatori-table th,
+.utilizatori-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.utilizatori-table th {
+  background-color: #edf2f7;
+  color: #2d3748;
+}
+
+.utilizatori-table tr:hover {
+  background-color: #f7fafc;
+}
+
+.utilizatori-table button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.utilizatori-table button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.utilizatori-table button:first-child:hover {
+  background-color: #218838;
+}
+
+.utilizatori-table button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.utilizatori-table button:last-child:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "ruta": "București–Brașov",
+    "status": "în circulație",
+    "lat": 45.9432,
+    "lng": 24.9668
+  },
+  {
+    "id": 2,
+    "ruta": "Cluj-Napoca–Timișoara",
+    "status": "întârziat",
+    "lat": 45.748,
+    "lng": 21.2087
+  }
+]

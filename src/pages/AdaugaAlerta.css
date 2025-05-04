@@ -1,0 +1,72 @@
+.pagina-alerta {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.btn-inapoi-fix {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background: none;
+  color: #2563eb;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.btn-inapoi-fix:hover {
+  text-decoration: underline;
+}
+
+.adauga-alerta-container {
+  max-width: 480px;      
+  width: 90%;            
+  margin: 100px auto 40px auto;
+  background: #fff;
+  padding: 30px 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.adauga-alerta-container h2 {
+  margin-bottom: 24px;
+  color: #1e3a8a;
+  text-align: center;
+}
+
+.adauga-alerta-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.adauga-alerta-container input,
+.adauga-alerta-container select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+
+.adauga-alerta-container button[type="submit"] {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: center;
+  width: fit-content;
+}
+
+.adauga-alerta-container button[type="submit"]:hover {
+  background-color: #1e40af;
+}

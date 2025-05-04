@@ -1,0 +1,70 @@
+.rapoarte-container {
+  width: 100%;
+  padding: 20px 16px; /* corectat: top-bottom 20px, left-right 16px */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* padding inclus în lățime */
+}
+
+
+.rapoarte-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+.rapoarte-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.rapoarte-actions select,
+.rapoarte-actions input[type="date"],
+.rapoarte-actions button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e0;
+  font-size: 16px;
+  outline: none;
+}
+
+.rapoarte-actions select {
+  width: 200px;
+  background-color: #f2f2f2;
+}
+
+.rapoarte-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rapoarte-actions button:hover {
+  background-color: #0056b3;
+}
+
+.chart-container {
+  margin-top: 20px;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.chart-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.chart-container canvas {
+  max-width: 100%;
+}

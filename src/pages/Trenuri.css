@@ -1,0 +1,80 @@
+.trenuri-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.trenuri-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trenuri-header h2 {
+  font-size: 28px;
+  color: #2d3748;
+  margin: 0;
+}
+
+.trenuri-actions input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.trenuri-actions input:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+/* Tabel cu trenuri */
+.trenuri-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.trenuri-table th,
+.trenuri-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e2e8f0;
+}
+
+.trenuri-table th {
+  background-color: #edf2f7;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.trenuri-table tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+.trenuri-table tr:hover {
+  background-color: #e6f7ff;
+  transition: background-color 0.3s ease;
+}
+
+.trenuri-table button {
+  padding: 8px 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.trenuri-table button:hover {
+  background-color: #218838;
+}
